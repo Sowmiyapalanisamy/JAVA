@@ -1,0 +1,24 @@
+abstract class Class1 {
+  
+  public abstract void Sound();
+  
+  public void sleep() {
+    System.out.println("123");
+  }
+}
+
+// Subclass (inherit from Animal)
+class Class2 extends Class1{
+  public void sound() {
+    // The body of animalSound() is provided here
+    System.out.println("sounds good");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Class2 my = new Class2(); // Create a Pig object
+    my.sound();
+    my.sleep();
+  }
+}
