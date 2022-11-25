@@ -20,6 +20,6 @@ class Sample{
         while (x > 10);
  
         
-        System.out.println("Thye sum is: " + sum);
+        System.out.println("The sum is: " + sum);
     }
 }
